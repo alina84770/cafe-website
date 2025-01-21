@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Website</title>
+    <!--Bootstrap CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Font Awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--own css-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="ResponsiveStyle.css">
+    <!--Animation On scroll css-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--Favicon-->
+    <link rel="icon" href="images/favicon.png">
+</head>
+
+<body>
+    <!--Header section-->
+    <header class="header-wrap">
+        <!--Top Header-->
+        <div class="header-top pt-4">
+            <div class="container border-bottom border-secondary">
+                <div class="row  align-items-center">
+                    <div class="col-sm-6">
+                        <div class="d-flex">
+                            <div class="contact-item d-flex ">
+                                <i class="fa-regular fa-clock mx-2 fs-5 text-warning"></i>
+                                <p class="text-white">Mon - Sun[8:00am - 10.00]</p>
+                            </div>
+                            <div class="contact-item mx-3 ">
+                                <i class="fa-solid fa-phone text-warning"></i>
+                                <a href="tel:12345678" class="text-warning text-decoration-none">92-302-6749836</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="contact-item d-flex  justify-content-end ">
+                            <i class="fa-regular fa-money-bill-alt fs-5 text-warning mx-2"></i>
+                            <p class="text-white">Discount off <b> 25%</b> only for <b> Burger Item</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light navigation-wrap">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt="image not found"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars text-white"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-lg-0 align-items-center">
+                        <li class="nav-item mx-3">
+                            <a href="#about" class="text-white text-decoration-none">About Us</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a href="#services" class="text-white text-decoration-none">Services</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a href="#features" class="text-white text-decoration-none">Features</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a href="#delivery" class="text-white text-decoration-none">Delivery</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a href="#our app" class="text-white text-decoration-none">Our App</a>
+                        </li>
+                        <li class="nav-item ms-1">
+                            <button class="btn btn-warning">Make Reservation
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                            </button>
+
+                        </li>
+
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- section-1 Top-Banner -->
+    <section id="home">
+        <div class="top-banner">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-xl-6 col-md-8 col-10" data-aos="fade-up" data-aos-duration="1000">
+                        <h1 class="text-white">We Provide Express<br>Home Delivery</h1>
+                        <h5 class="text-secondary">In shakes item of 2021 we are offering 20% flat discount.Don't miss
+                            out!!</h5>
+                        <button class="btn btn-warning mt-2"><i class="fa-solid fa-basket-shopping pe-3"></i>Order
+                            Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="mt-5">
+        <div class="container about">
+            <div class="row  align-items-center justify-content-center">
+
+                <div class="col-lg-6 col-md-6 col-sm-10" data-aos="fade-right" data-aos-duration="1000">
+                    <span class="fs-5 text-warning">Our Story</span>
+                    <h2 class="mt-2 about-heading">We Provide Locally Crafted Food Services</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nisi animi adipisci dolore placeat
+                        saepe asperiores veritatis repudiandae ipsum commodi.</p>
+                </div>
+               
+                <div class="col-lg-6 col-md-6 col-sm-12 text-center" data-aos="fade-left" data-aos-duration="1000">
+                    <img src="images/img/img-1.png" alt="image not found" class="about-img img-fluid">
+                </div>
+
+            </div>
+        </div>
+    </section> 
+
+    <!-- Services -->
+    <section id="services" class="services-section mb-3">
+        <div class="container">
+            <div class="text-center">
+                <span class="fs-5 text-warning">Services</span>
+                <h3>What We Offer</h3>
+            </div>
+
+            <div class="row justify-content-center mt-5 services-card">
+
+                <div class="card shadow border-0 col-lg-3 col-md-6  col-sm-6 col-12 my-4" data-aos="fade-right"
+                    data-aos-duration="1000">
+                    <img src="images/offer/breakfast.png" alt="image not found"
+                        class="card-img rounded-circle bg-light">
+                    <div class="card-body text-center">
+                        <h3 class="card-heading fs-4 fw-bold">BreakFast</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    </div>
+                </div>
+
+
+                <div class="card shadow border-0 col-lg-3 col-md-6  col-sm-6 col-12 my-4" data-aos="fade-up"
+                    data-aos-duration="1000">
+                    <img src="images/offer/lunch.png" alt="image not found" class="card-img rounded-circle bg-light">
+                    <div class="card-body text-center">
+                        <h3 class="card-heading fs-4 fw-bold">Lunch</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    </div>
+                </div>
+
+
+                <div class="card shadow border-0 col-lg-3 col-md-6  col-sm-6 col-12 my-4" data-aos="fade-down"
+                    data-aos-duration="1000">
+                    <img src="images/offer/dinner.png" alt="image not found" class="card-img rounded-circle bg-light">
+                    <div class="card-body text-center">
+                        <h3 class="card-heading fs-4 fw-bold">Dinner</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    </div>
+                </div>
+
+                <div class="card shadow border-0 col-lg-3 col-md-6  col-sm-6 col-12 my-4" data-aos="fade-left"
+                    data-aos-duration="1000">
+                    <img src="images/offer/custom.png" alt="image not found" class="card-img rounded-circle bg-light">
+                    <div class="card-body text-center">
+                        <h3 class="card-heading fs-4 fw-bold">Custom</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Features -->
+    <section id="features" class="feature-section mt-4 pb-5">
+        <div class="container">
+            <div class="text-center py-4 feature-heading">
+                <span class="fs-5 text-warning">Our Features Items</span>
+                <h3 class="text-white mt-3">Popular Items Of Our Restaurant</h3>
+            </div>
+            <div class="row justify-content-center food-card">
+
+                <div class="card border-0 col-lg-4 col-md-6 col-sm-6 col-10" data-aos="fade-right"
+                    data-aos-duration="1000">
+                    <div class="feature-img d-flex justify-content-center">
+                        <img src="images/feature/feature-item-1.jpg" alt="image not found" class="feature-img-top"
+                            data-aos="fade-right" data-aos-duration="1000">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="fs-5 fw-bold">Chicken In Teriyaki</h3>
+                        <p>Time: 15 - 20 Minutes | Services: 1</p>
+                        <div class="d-flex">
+                            <h4 class="text-dark">$10.50</h4>
+                            <h4 class="text-muted ms-3">$11.70</h4>
+                        </div>
+                        <button class="btn btn-warning">Order Now</button>
+                    </div>
+                </div>
+
+                <div class="card  border-0 col-lg-4 col-md-6 col-sm-6 col-10" data-aos="fade-down"
+                    data-aos-duration="1000">
+                    <div class="feature-img d-flex justify-content-center">
+                        <img src="images/feature/feature-item-2.jpg" alt="image not found" class="feature-img-top"
+                            data-aos="fade-down" data-aos-duration="1000">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="fs-5 fw-bold">Hotdog with sausage</h3>
+                        <p>Time:15 - 20 Minutes | Services:1</p>
+                        <div class="d-flex">
+                            <h4 class="text-dark">$10.50</h4>
+                            <h4 class="text-muted ms-3">$11.70</h4>
+                        </div>
+                        <button class="btn btn-warning">Order Now</button>
+                    </div>
+                </div>
+
+                <div class="card  border-0 col-lg-4 col-md-6 col-sm-6 col-10" data-aos="fade-left"
+                    data-aos-duration="1000">
+                    <div class="feature-img d-flex justify-content-center">
+                        <img src="images/feature/feature-item-3.jpg" alt="image not found" class="feature-img-top"
+                            data-aos="fade-left" data-aos-duration="1000">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="fs-5 fw-bold">Breakfast with sweet</h3>
+                        <p>Time:15 - 20 Minutes | Services:1</p>
+                        <div class="d-flex">
+                            <h4 class="text-dark">$10.50</h4>
+                            <h4 class="text-muted ms-3">$11.70</h4>
+                        </div>
+                        <button class="btn btn-warning">Order Now</button>
+                    </div>
+                </div>
+
+                <div class="card border-0 col-lg-4 col-md-6 col-sm-6 col-10" data-aos="fade-right"
+                    data-aos-duration="1000">
+                    <div class="feature-img d-flex justify-content-center">
+                        <img src="images/feature/feature-item-4.jpg" alt="image not found" class="feature-img-top"
+                            data-aos="fade-right" data-aos-duration="1000">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="fs-5 fw-bold">Grilled Chicken Stick</h3>
+                        <p>Time: 15 - 20 Minutes | Services: 1</p>
+                        <div class="d-flex">
+                            <h4 class="text-dark">$10.50</h4>
+                            <h4 class="text-muted ms-3">$11.70</h4>
+                        </div>
+                        <button class="btn btn-warning">Order Now</button>
+                    </div>
+                </div>
+
+                <div class="card border-0 col-lg-4 col-md-6 col-sm-6 col-10" data-aos="fade-down"
+                    data-aos-duration="1000">
+                    <div class="feature-img d-flex justify-content-center">
+                        <img src="images/feature/feature-item-5.jpg" alt="image not found" class="feature-img-top"
+                            data-aos="fade-down" data-aos-duration="1000">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="fs-5 fw-bold">Chicken Barista Platter</h3>
+                        <p>Time:15 - 20 Minutes | Services:1</p>
+                        <div class="d-flex">
+                            <h4 class="text-dark">$10.50</h4>
+                            <h4 class="text-muted ms-3">$11.70</h4>
+                        </div>
+                        <button class="btn btn-warning">Order Now</button>
+                    </div>
+                </div>
+
+                <div class="card border-0 col-lg-4 col-md-6 col-sm-6 col-10" data-aos="fade-left"
+                    data-aos-duration="1000">
+                    <div class="feature-img d-flex justify-content-center">
+                        <img src="images/feature/feature-item-6.jpg" alt="image not found" class="feature-img-top"
+                            data-aos="fade-left" data-aos-duration="1000">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="fs-5 fw-bold">French Fries Pack</h3>
+                        <p>Time:15 - 20 Minutes | Services:1</p>
+                        <div class="d-flex">
+                            <h4 class="text-dark">$10.50</h4>
+                            <h4 class="text-muted ms-3">$11.70</h4>
+                        </div>
+                        <button class="btn btn-warning">Order Now</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--Delivery Section-->
+    <section id="delivery" class="delivery-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6  delivery-content" data-aos="fade-right" data-aos-duration="1000">
+                    <span class="text-warning fs-5">Quick Delivery</span>
+                    <h3 class="mt-3">Free Food delivery Everyday <br>At Your Convenience</h3>
+                    <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure natus temporibus
+                        voluptatibus perspiciatis assumenda eaque laborum, numquam officiis ut! Recusandae aperiam
+                        maxime ab optio.</p>
+                    <button class="btn btn-warning py-2 mt-3"><i class="fa-solid fa-basket-shopping pe-3"></i>Order
+                        Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- our app-->
+    <section id="our app" class="app-section mt-5 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-8 col-sm-10 app-content text-white" data-aos="fade-down"
+                    data-aos-duration="1000">
+                    <span class="fs-5 text-warning">Our App</span>
+                    <h2 class="text-white">Order with Our Application</h2>
+                    <h5 class="mt-4 text-danger"><i class="fa-regular fa-square-check me-2"></i>Oder And Pay
+                        In A few Minutes</h5>
+                    <p>Choose food and for the order in a couple of clicks online also choose your current location
+                        using GPS.</p>
+                    <h5 class="mt-4 text-danger"><i class="fa-regular fa-square-check me-2"></i>Check
+                        Delivery Status</h5>
+                    <p>Follow the status of your order in real time and also track the delivery path until you get it.
+                    </p>
+                    <div class="app-img mt-4">
+                        <img src="images/app/google-playstore.png" alt="image not found" data-aos="fade-up"
+                            data-aos-duration="500">
+                        <img src="images/app/apple-playstore.png" alt="image not found" class="ms-3" data-aos="fade-up"
+                            data-aos-duration="500">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- News letter Section-->
+    <section class="news-letter py-5">
+        <div class="container">
+            <div class="text-center" data-aos="fade-down" data-aos-duration="1000">
+                <span class="fs-5 text-warning">GEt In Touch</span>
+                <h2>Newsletter Subscribe</h2>
+                <p class="text-dark mt-3 w-75 mx-auto">Drop us your email address. we love to hear from you and are happy to answer any questions immediately.</p>
+                <div class="mt-4">
+                        <form class="d-flex justify-content-center">
+                            <div class="input-group">
+                                <input type="email" placeholder="Enter Your Email Address"
+                                    class="form-control form-control-lg">
+                                <button class="btn btn-warning px-4"><i
+                                        class="fa-solid fa-play text-white "></i></button>
+                            </div>
+                        </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark py-5">
+        <ul class="d-flex justify-content-center list-unstyled">
+            <li><a class="text-white text-decoration-none mx-2">Register</a></li>
+            <li><a class="text-white text-decoration-none mx-2">Offers</a></li>
+            <li><a class="text-white text-decoration-none mx-2">Affiliate</a></li>
+            <li><a class="text-white text-decoration-none mx-2">Join team</a></li>
+        </ul>
+        <ul class="d-flex justify-content-center list-unstyled mt-4 list">
+            <li><i class="fa-brands fa-facebook-f text-white mx-3 fs-5"></i></li>
+            <li><i class="fa-brands fa-twitter text-white mx-3 fs-5"></i></li>
+            <li><i class="fa-brands fa-youtube text-white mx-3 fs-5"></i></li>
+            <li><i class="fa-brands fa-linkedin text-white mx-3 fs-5"></i></li>
+            <li><i class="fa-brands fa-square-instagram text-white mx-3 fs-5"></i></li>
+        </ul>
+        <hr class="bg-secondary w-75 mx-auto">
+        <div class="d-flex justify-content-center mt-4">
+            <p class="text-white">&copy; 2024, CCD, All rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!--script-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <!--Animation on scroll js-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
